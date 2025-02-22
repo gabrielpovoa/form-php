@@ -1,0 +1,22 @@
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+nav ul a {
+    /* flex: 1; */
+    cursor: pointer;
+}
+
+nav ul a li:hover {
+    outline: 1px solid #EEF0F2;
+    width: 100%;
+}
+
+nav ul a li {
+    padding: 10px;
+    color: #EEF0F2;
+}

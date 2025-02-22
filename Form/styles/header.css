@@ -1,0 +1,43 @@
+header {
+    background-color: #333;
+    padding: 2rem 5%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+header .box-logo {
+    background-color: #093b86;
+    color: #EEF0F2;
+    box-shadow: inset 0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-size: 20px;
+    border-radius: 0 .4rem 0 .4rem;
+    
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 12rem;
+    height: auto;
+    padding-left: 10px;
+}
+
+header .box-logo .logo-item {
+    box-shadow: inset 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #BF1363;
+    border-radius: 0 .4rem 0 0;
+    padding: 10px;
+    text-align: center;
+    width: 6rem;
+    height: 100%;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
