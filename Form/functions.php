@@ -19,7 +19,7 @@ function loginSent( $name, $email, $password, $newsletter ): never
         $_SESSION[ 'password' ] = $password;
         $_SESSION[ 'newsletter' ] = $newsletter;
 
-        header( 'Location: profile.php' );
+        header( 'Location: home.php' );
         exit();
     } else {
         $_SESSION[ 'error' ] = '⚠️ Email or password wrong';

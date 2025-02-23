@@ -21,4 +21,4 @@ require 'partials/header.php';
 
     <?php require 'partials/home_grid_section.php';?>
 </section>
-
+<?php require 'partials/footer.php'; ?>

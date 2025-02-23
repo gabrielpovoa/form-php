@@ -49,3 +49,4 @@ $newsletter = $sessionData['newsletter'];
         </section>
     </article>
 </div>
+<?php require 'partials/footer.php'; ?>
