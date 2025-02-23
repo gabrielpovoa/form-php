@@ -23,7 +23,7 @@ function loginSent( $name, $email, $password, $newsletter ): never
         exit();
     } else {
         $_SESSION[ 'error' ] = '⚠️ Email or password wrong';
-        header( 'Location: form.php' );
+        header( 'Location: index.php' );
         exit();
     }
 }
@@ -59,7 +59,7 @@ function checkSession(): array
     }
 
     if ( !isset( $_SESSION[ 'name' ] ) ) {
-        header( 'Location: ./form.php' );
+        header( 'Location: ./index.php' );
         exit();
     }
 
@@ -79,6 +79,6 @@ function checkSession(): array
 function logOutProfile()
  {
     session_destroy();
-    header( 'Location: ./form.php' );
+    header( 'Location: ./index.php' );
     exit();
 }
